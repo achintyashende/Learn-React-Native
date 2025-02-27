@@ -4,6 +4,7 @@ import Basics from './src/components/Basics';
 import TextInputComponent from './src/components/TextInputComponent';
 import NestedScroll from './src/components/NestedScroll';
 import StylingDemo from './src/components/Styling';
+import FlexLayout from './src/components/FlexLayout';
 
 
 
@@ -19,6 +20,7 @@ function App(): React.JSX.Element {
         <Basics />
         <NestedScroll/>
         <StylingDemo/>
+        <FlexLayout/>
       </ScrollView>
     </View>
   );
