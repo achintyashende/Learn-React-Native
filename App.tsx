@@ -3,6 +3,7 @@ import { Button, Image, ScrollView, StyleSheet, Text, View } from 'react-native'
 import Basics from './src/components/Basics';
 import TextInputComponent from './src/components/TextInputComponent';
 import NestedScroll from './src/components/NestedScroll';
+import StylingDemo from './src/components/Styling';
 
 
 
@@ -17,6 +18,7 @@ function App(): React.JSX.Element {
         <TextInputComponent />
         <Basics />
         <NestedScroll/>
+        <StylingDemo/>
       </ScrollView>
     </View>
   );
