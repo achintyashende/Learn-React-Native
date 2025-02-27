@@ -5,6 +5,7 @@ import TextInputComponent from './src/components/TextInputComponent';
 import NestedScroll from './src/components/NestedScroll';
 import StylingDemo from './src/components/Styling';
 import FlexLayout from './src/components/FlexLayout';
+import TouchableComponent from './src/components/TouchableComponent';
 
 
 
@@ -21,6 +22,7 @@ function App(): React.JSX.Element {
         <NestedScroll/>
         <StylingDemo/>
         <FlexLayout/>
+        <TouchableComponent/>
       </ScrollView>
     </View>
   );
